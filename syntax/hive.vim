@@ -70,6 +70,7 @@ syn keyword sqlType array map struct named_struct create_union timestamp date va
 
 syn match hiveVar     "hive\.[a-zA-Z.]\+"
 syn match hiveVar     "mapred\.[a-zA-Z.]\+"
+syn match hiveVar     "mapreduce\.[a-zA-Z.]\+"
 
 " Strings and characters:
 syn region sqlString		start=+"+  skip=+\\\\\|\\"+  end=+"+
